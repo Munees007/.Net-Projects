@@ -14,7 +14,7 @@ namespace Login_Form
     public partial class Form1 : Form
     {
         bool isLogin = true;
-        readonly string connectionString = "";
+        readonly string connectionString = "Server=MUNEESPC;Database=MuneesDB;User ID=Munees;Password=Munees@123;Trusted_Connection=True;";
         SqlConnection connection;
         public Form1()
         {
